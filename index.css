@@ -1,0 +1,356 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+i{
+    padding-right: 0.4em;
+    color: purple;
+}
+.header{
+    font-family: georgia;
+    color: purple;
+}
+.header span{
+    font-family: georgia;
+    color: orange;
+}
+.btn{
+    background-color:purple ;
+    color: aliceblue;
+}
+#f_error{
+   display: none;
+    color: red;
+    font-weight: 900;
+    font-family: georgia;
+}
+#agree_error{
+    display: none;
+    color: red;
+    font-weight: 900;
+    font-family: georgia;
+}
+#address_error{
+    display: none;
+    color: red;
+    font-weight: 900;
+    font-family: georgia;
+}
+#state_error{
+    display: none;
+    color: red;
+    font-weight: 900;
+    font-family: georgia;
+}
+#city_error{
+    display: none;
+    color: red;
+    font-weight: 900;
+    font-family: georgia;
+}
+#country_error{
+    display: none;
+    color: red;
+    font-weight: 900;
+    font-family: georgia;
+}
+#cp_error{
+    display: none;
+    color: red;
+    font-weight: 900;
+    font-family: georgia;
+}
+#p_error{
+    display: none;
+    color: red;
+    font-weight: 900;
+    font-family: georgia;
+}
+#e_error{
+    display: none;
+    color: red;
+    font-weight: 900;
+    font-family: georgia;
+}
+#E_error{
+    display: none;
+    color: red;
+    font-weight: 900;
+    font-family: georgia;
+}
+.fa-exclamation-circle{
+    color: red;
+    font-size: 1.5em;
+
+}
+.fa-circle-check{
+
+    color: seagreen;
+    font-size: 1.5em;
+}
+#btn{
+   margin-bottom: 1em;
+}
+
+#sucess8{
+    position: absolute;
+    display: none;
+    padding-left: 1em;
+}
+
+#sucess{
+    position: absolute;
+    bottom: 0.7em;
+    margin-left: 25em;
+    display: none;
+}
+#danger{
+    position: absolute;
+    bottom: 2.3em;
+    margin-left: 25em;
+    display: none;
+}
+#danger1{
+    position: absolute;
+    bottom: 2.7em;
+    margin-left: 25em;
+    display: none;
+}
+#sucess1{
+    position: absolute;
+    bottom: 1em;
+    margin-left: 25em;
+    display: none;
+}
+#danger2{
+    position: absolute;
+    bottom: 2.2em;
+    margin-left: 25em;
+    display: none;
+}
+#sucess2{
+    position: absolute;
+    bottom: 2em;
+    margin-left: 25em;
+    display: none;
+}
+
+#danger3{
+    position: absolute;
+   top: 0.8em;
+   margin-left: 25em;
+    display: none;
+}
+#sucess3{
+    position: absolute;
+    bottom: 0.4em;
+    margin-left: 25em;
+    display: none;
+}
+
+#danger4{
+    position: absolute;
+    bottom: 2.4em;
+    margin-left: 25em;
+    display: none;
+}
+#sucess4{
+    position: absolute;
+    bottom: 0.8em;
+    margin-left: 25em;
+    display: none;
+}
+
+#danger5{
+    position: absolute;
+    bottom: 2.3em;
+    margin-left: 25em;
+    display: none;
+}
+#sucess5{
+    position: absolute;
+    bottom: 0.6em;
+    margin-left: 25em;
+    display: none;
+}
+
+#danger6{
+    position: absolute;
+    bottom: 2.3em;
+    margin-left: 25em;
+    display: none;
+}
+#sucess6{
+    position: absolute;
+    bottom: 0.6em;
+    margin-left: 25em;
+    display: none;
+}
+
+#danger7{
+    position: absolute;
+    bottom: 2.2em;
+    margin-left: 25em;
+    display: none;
+}
+#sucess7{
+    position: absolute;
+    bottom: 0.6em;
+    margin-left: 25em;
+    display: none;
+}
+#contain_9{
+    font-weight: 900;
+    font-style: italic;
+    background-image: -webkit-linear-gradient(red, #fff);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+display: none;
+
+}
+#comfirm_f{
+    font-weight: 900;
+    font-style: italic;
+    background-image: -webkit-linear-gradient(red, #fff);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+display: none;
+}
+
+.rights{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+  color: black;
+  font-size: 1em;
+  padding-top: 2em;
+  }
+  .rights a{
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+  background-image: -webkit-linear-gradient(red, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1em;
+  }
+
+@media screen and (max-width:768px) {
+    /* #me{
+        position: absolute;
+        bottom: 0.7em;
+        margin-left: 12.5em;
+        display: none;
+    }
+    #danger{
+        position: absolute;
+        bottom: 2.3em;
+        margin-left: 12.7em;
+        display: none;
+    } */
+    #sucess{
+        position: absolute;
+        bottom: 0.7em;
+        margin-left: 13em;
+        display: none;
+    }
+    #danger{
+        position: absolute;
+        bottom: 2.3em;
+        margin-left: 13em;
+        display: none;
+    }
+    #danger4{
+        position: absolute;
+        bottom: 2.4em;
+        margin-left: 13em;
+        display: none;
+    }
+    #sucess4{
+        position: absolute;
+        bottom: 0.8em;
+        margin-left: 13em;
+        display: none;
+    }
+
+    #danger6{
+        position: absolute;
+        bottom: 2.3em;
+        margin-left: 13em;
+        display: none;
+    }
+    #sucess6{
+        position: absolute;
+        bottom: 0.6em;
+        margin-left: 13em;
+        display: none;
+    }
+
+    #danger5{
+        position: absolute;
+        bottom: 2.3em;
+        margin-left: 13em;
+        display: none;
+    }
+    #sucess5{
+        position: absolute;
+        bottom: 0.6em;
+        margin-left: 13em;
+        display: none;
+    }
+    #danger7{
+        position: absolute;
+        bottom: 2.2em;
+        margin-left: 13em;
+        display: none;
+    }
+    #sucess7{
+        position: absolute;
+        bottom: 0.6em;
+        margin-left: 13em;
+        display: none;
+    }
+        
+    #danger2{
+        position: absolute;
+        bottom: 2.2em;
+        margin-left: 12.9em;
+        display: none;
+    }
+    #sucess2{
+        position: absolute;
+        bottom: 0.7em;
+        margin-left: 12.9em;
+        display: none;
+    }
+
+    #danger3{
+        position: absolute;
+        bottom: 2.2em;
+        margin-left: 12.9em;
+        display: none;
+    }
+    #sucess3{
+        position: absolute;
+        bottom: 0.7em;
+        margin-left: 12.9em;
+        display: none;
+    }
+
+    #danger1{
+        position: absolute;
+        bottom: 2.1em;
+        margin-left: 12.9em;
+        display: none;
+    }
+    #sucess1{
+        position: absolute;
+        bottom: 0.6em;
+        margin-left: 12.9em;
+        display: none;
+    }
+}

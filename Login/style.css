@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#btn{
+    background-color: rgba(0, 0, 255, 0.539);
+    color: #fff;
+    font-weight: 900;
+    font-style: italic;
+    margin: 3em;
+}
+.login_header{
+    font-weight: 900;
+    font-family: georgia;
+    
+}
+.login_header .inday{
+    font-weight: 900;
+    font-family: georgia;
+    color: rgba(0, 0, 255, 0.539);
+}
+#evilope{
+    color: rgba(0, 0, 255, 0.539);
+    font-size: larger;
+}
+#key{
+    color: rgba(0, 0, 255, 0.539);
+    font-size: larger;
+}
+#e_error{
+      font-size: larger;
+      font-weight: 900;
+      font-family: georgia;
+      color: red;
+      display: none;
+}
+#p_error{
+      font-size: larger;
+      font-weight: 900;
+      font-family: georgia;
+      color: red;
+      display: none;
+}
+#fp_error{
+      font-size: larger;
+      font-weight: 900;
+      font-family: georgia;
+      color: red;
+      display: none;
+}
+#danger1{
+    color: red;
+    font-size: 2em;
+    position: absolute;
+    bottom: 1.8em;
+    left: 18.8em;
+    display: none;
+}
+#sucess1{
+    color: seagreen;
+    font-size: 2em;
+    position: absolute;
+    bottom: 0.4em;
+    left: 18.8em;
+    display: none;
+}
+
+#danger2{
+    color: red;
+    font-size: 2em;
+    position: absolute;
+    bottom: 1.8em;
+    left: 18.8em;
+    display: none;
+}
+#sucess2{
+    color: seagreen;
+    font-size: 2em;
+    position: absolute;
+    bottom: 0.4em;
+    left: 18.8em;
+    display: none;
+}
+
+.rights{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+  color: black;
+  font-size: 1em;
+  padding-top: 2em;
+  }
+  .rights a{
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+  background-image: -webkit-linear-gradient(red, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1em;
+  }
+@media screen and (max-width:768px) {
+    #danger1{
+        color: red;
+        font-size: 2em;
+        position: absolute;
+        bottom: 1.8em;
+        left: 9.8em;
+        display: none;
+    }
+    #sucess1{
+        color: seagreen;
+        font-size: 2em;
+        position: absolute;
+        bottom: 0.4em;
+        left: 9.8em;
+        display: none;
+    }
+
+    #danger2{
+        color: red;
+        font-size: 2em;
+        position: absolute;
+        bottom: 1.8em;
+        left: 9.8em;
+        display: none;
+    }
+    #sucess2{
+        color: seagreen;
+        font-size: 2em;
+        position: absolute;
+        top: 0.5em;
+        left: 9.8em;
+        display: none;
+    }
+}
